@@ -1,0 +1,495 @@
+{
+  "menu": [
+    {
+      "for" :["superadmin"],
+      "url": "/superadmin",
+      "name": "Dashboard",
+      "i18n": "superadmin",
+      "class": "waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "settings_input_svideo"
+    },
+    {
+      "for" :["admin"],
+      "url": "/",
+      "name": "Dashboard",
+      "i18n": "superadmin",
+      "permission_name":"Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "settings_input_svideo"
+    },
+    {
+      "navheader": "Applications",
+      "icon": "more_horiz"
+    },
+    
+    {
+      "for" :["superadmin"],
+      "url": "superadmin/company",
+      "name": "Companies",
+      "i18n": "Companies",
+      "class": "",
+      "slug": "companies",
+      "icon": "format_list_bulleted"
+    },
+
+    {
+      "for" :["superadmin"], 
+      "url": "javascript:void(0)",
+      "name": "Company Admin",
+      "i18n": "Company Admin",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "company-admin",
+      "icon": "person_outline",
+      
+      "submenu":[
+
+        
+
+        {
+          
+          "url": "superadmin/company-admin-list",
+          "name": "All list",
+          "i18n": "All list",
+          "slug": "Profile"
+          
+        },
+
+        {
+          
+          "url": "superadmin/admin-list",
+          "name": "admin",
+          "i18n": "Profile",
+          "slug": "Profile"
+          
+        },
+
+        
+        {
+          
+          "url": "superadmin/patient-list",
+          "name": "patient",
+          "i18n": "Profile",
+          "slug": "Profile"
+          
+        },
+    
+        {
+          
+          "url": "superadmin/carer-list",
+          "name": "carer",
+          "i18n": "Profile",
+          "slug": "Profile"
+          
+        },
+    
+        {
+          
+          "url": "superadmin/manager-list",
+          "name": "manager",
+          "i18n": "Profile",
+          "slug": "Profile"
+          
+        },
+        {
+          
+          "url": "superadmin/patient-carer-map-list",
+          "name": "patient_carer",
+          "i18n": "Profile",
+          "slug": "Profile"
+          
+        }
+
+        
+
+      ]
+    },
+
+
+    
+
+
+    {
+      "for" :["admin"],
+      "url": "javascript:void(0)",
+      "name": "Company User",
+      "i18n": "Company User",
+      "permission_name":"company_user",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "company-user",
+      "icon": "person_outline",
+      "submenu": [
+        {
+          "url": "company-user-create",
+          "name": "Add Company User",
+          "i18n": "Add Company User",
+          "permission_guard_name":"create",
+          "slug": "add-company-user"
+        },
+        {
+          "url": "company-user-list",
+          "name": "Company-user List",
+          "i18n": "Company-user List",
+          "permission_guard_name":"read",
+          "slug": "company-user-list"
+        }
+      ]
+    },
+    
+    {
+    "for" :["superadmin"], 
+      "url": "javascript:void(0)",
+      "name": "master",
+      "i18n": "master",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "company-admin",
+      "icon": "person_outline",
+      "submenu":[
+      {
+        "for" :["superadmin"],
+        "url": "superadmin/decease-list",
+        "name": "diseasemaster",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "healing"
+      },
+
+      {
+        "for" :["superadmin"],
+        "url": "superadmin/inventory-list",
+        "name": "inventorymaster",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "add_box"
+      },
+      
+
+      {
+        "for" :["superadmin"],
+        "url": "superadmin/inventory-mapping",
+        "name": "disease-inventory",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "healing"
+      },
+
+      {
+        "for" :["superadmin"],
+        "url": "superadmin/medicine-list",
+        "name": "medicinemaster",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "healing"
+      },
+
+      
+
+      {
+        "for" :["superadmin"],
+        "url": "superadmin/supplier-list",
+        "name": "supplierMaster",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "assignment_turned_in"
+      },
+
+      {
+        "for" :["superadmin"],
+        "url": "superadmin/stockin-list",
+        "name": "stockIn",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "assignment_turned_in"
+      },
+
+      {
+        "for" :["superadmin"],
+        "url": "superadmin/stockout-list",
+        "name": "stockOut",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "assignment_returned"
+      },
+      {
+        "for" :["superadmin"],
+        "url": "superadmin/medicine-stock-management",
+        "name": "medicine-stock",
+        "i18n": "medicine-stock",
+        "class": "waves-effect waves-cyan",
+        "slug": "medicine-stock",
+        "icon": "healing"
+      }
+    ]
+  },
+
+  {
+    "for" :["superadmin"],
+    "url": "superadmin/patient-schedule-list",
+    "name": "patientSchedule",
+    "i18n": "Profile",
+    "class": "waves-effect waves-cyan",
+    "slug": "Profile",
+    "icon": "av_timer"
+  },
+
+
+
+    {
+      "for" :["superadmin"],
+      "url": "superadmin/profile-edit",
+      "name": "Profile",
+      "i18n": "Profile",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+    },
+    {
+      "for" :["admin","user"],
+      "url": "admin/dashboard",
+      "name": "Profile",
+      "i18n": "Profile",
+      "permission_name":"Profile",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+    },
+    {
+      "for" :["Admin","user"],
+      "url": "javascript:void(0)",
+      "name": "Patient",
+      "i18n": "Patient",
+      "permission_name":"Dashboard",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline",
+      "submenu":[
+        {
+          "for" :["Admin"],
+          "url": "admin/patient-list",
+          "name": "Patient profile",
+          "i18n": "Patient profile",
+          "class": "waves-effect waves-cyan",
+          "slug": "Profile",
+          "icon": "healing"
+        },
+        {
+          "for" :["Admin"],
+          "url": "admin/patient-disease-list",
+          "name": "Patient disease",
+          "i18n": "Patient disease",
+          "class": "waves-effect waves-cyan",
+          "slug": "Profile",
+          "icon": "healing"
+        },
+        {
+          "for" :["Admin"],
+          "url": "admin/patient-medicine-list",
+          "name": "Patient medicine",
+          "i18n": "Patient medicine",
+          "class": "waves-effect waves-cyan",
+          "slug": "Profile",
+          "icon": "healing"
+        },
+        {
+          "for" :["Admin"],
+          "url": "admin/patient-schedule-list",
+          "name": "Patient schedule",
+          "i18n": "Patient schedule",
+          "class": "waves-effect waves-cyan",
+          "slug": "Profile",
+          "icon": "healing"
+        }
+      ]
+    },
+    {
+      "for" :["Admin","user"],
+      "url": "admin/manager-list",
+      "name": "Manager",
+      "i18n": "Manager",
+      "permission_name":"Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+    },
+    {
+      "for" :["Admin","user"],
+      "url": "admin/carer-list",
+      "name": "Carer",
+      "i18n": "Carer",
+      "permission_name":"Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+    },
+    {
+      "for" :["Admin"],  
+      "url": "admin/admin-patient-carer-map-list",
+      "name": "patient_carer",
+      "i18n": "Profile",
+      "permission_name":"Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+      
+    },
+   
+
+    {
+      "for" :["Manager"],
+      "url": "manager/manager-patient-list",
+      "name": "Patient",
+      "i18n": "Patient",
+      "permission_name":"Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+    },
+    
+    {
+      "for" :["Manager"],
+      "url": "manager/manager-carer-list",
+      "name": "Carer",
+      "i18n": "Carer",
+      "permission_name":"Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+    },
+    {
+      "for" :["Manager"],  
+      "url": "manager/manager-patient-carer-map-list",
+      "name": "patient_carer",
+      "i18n": "Profile",
+      "permission_name":"Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+      
+    },
+    {
+      "for" :["Manager"],  
+      "url": "manager/manager-medicine-list",
+      "name": "medicine",
+      "i18n": "Profile",
+      "permission_name":"Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+      
+    },
+    {
+      "for" :["Manager"],  
+      "url": "manager/medicine-stock-management",
+      "name": "medicine-stock",
+      "i18n": "Profile",
+      "permission_name":"Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "Profile",
+      "icon": "person_outline"
+      
+    },
+    {
+      "for" :["Admin"], 
+        "url": "javascript:void(0)",
+        "name": "master",
+        "i18n": "master",
+        "permission_name":"Dashboard",
+        "class": "collapsible-header waves-effect waves-cyan",
+        "slug": "company-admin",
+        "icon": "person_outline",
+        "submenu":[
+      {
+        "for" :["Admin"],
+        "url": "admin/admin-decease-list",
+        "name": "diseasemaster",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "healing"
+      },
+  
+      {
+        "for" :["Admin"],
+        "url": "admin/admin-inventory-list",
+        "name": "inventorymaster",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "add_box"
+      },
+      
+  
+      {
+        "for" :["Admin"],
+        "url": "admin/inventory-mapping",
+        "name": "disease-inventory",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "healing"
+      },
+  
+      {
+        "for" :["Admin"],
+        "url": "admin/admin-medicine-list",
+        "name": "medicinemaster",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "healing"
+      },
+  
+      
+  
+      {
+        "for" :["Admin"],
+        "url": "admin/admin-supplier-list",
+        "name": "supplierMaster",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "assignment_turned_in"
+      },
+
+      {
+        "for" :["Admin"],
+        "url": "admin/medicine-stock-management",
+        "name": "medicine-stock",
+        "i18n": "medicine-stock",
+        "class": "waves-effect waves-cyan",
+        "slug": "medicine-stock",
+        "icon": "healing"
+      },
+  
+      {
+        "for" :["Admin"],
+        "url": "admin/admin-stockin-list",
+        "name": "stockIn",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "assignment_turned_in"
+      },
+  
+      {
+        "for" :["Admin"],
+        "url": "admin/admin-stockout-list",
+        "name": "stockOut",
+        "i18n": "Profile",
+        "class": "waves-effect waves-cyan",
+        "slug": "Profile",
+        "icon": "assignment_returned"
+      }
+    ]
+    }
+    
+  ]
+}

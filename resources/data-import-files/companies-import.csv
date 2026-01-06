@@ -1,0 +1,4 @@
+company_code,company_name,address1,address2,address3,email,no_of_user_license,license_from,license_to,city,state,country,pincode,contact_person,contact_mobile,phone_no,licence_valid_till,blocked
+abc1,abc-name1,V79X+Q2H Uttar Pradesh 250101 India,NULL,1,1,1,45654,sdf,8945612,NULL,26-08-2023,1,ty,9786464,78946456,30-09-2023,1
+abc2,abc-name2,V79X+Q2H Uttar Pradesh 250101 India,NULL,1,1,1,45654,sdf,8945612,NULL,26-08-2023,blocked,uy,645646,56546,30-09-2023,1
+abc3,abc-name3,V79X+Q2H Uttar Pradesh 250101 India,sad,1,1,1,45654,sdf,8945612,99856,24-08-2023,1,io,6545645,54645645,30-09-2023,1

@@ -1,0 +1,247 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.alert {
+    padding: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.alert.alert-danger {
+    background: #f48a8a;
+    color: #fff;
+}
+
+.alert.alert-success {
+    background: #b3e8b3;
+    color: #000;
+}
+
+ul.pager {
+    display: flex;
+    justify-content: center;
+}
+
+ul.pager li,
+ul.pager li a {
+    margin: 1px;
+    background: #7521a2;
+    color: #fff;
+    padding: 5px;
+}
+
+ul.pager li.disabled,
+ul.pager li.active {
+    background: #ddd;
+    color: #333;
+}
+
+/*************************************************************************************/
+/* CUSTOM_COLOR_CSS */
+/*************************************************************************************/
+
+.gradient-45deg-indigo-purple {
+    background: linear-gradient(45deg, #0c479d, #0064c3) !important;
+}
+
+.sidenav li a.active,
+.gradient-45deg-purple-amber,
+.gradient-45deg-purple-amber.gradient-shadow ,.navbar .notification-badge {
+    background: linear-gradient(45deg, #0c479d, #0064c3) !important;
+    box-shadow: 3px 3px 20px 0 rgb(2 97 191 / 53%) !important;
+}
+
+.navbar .notification-badge {
+  background: #fff !important;
+  color: #0c479d !important;
+  box-shadow: 0px 0px 13px 0 rgb(255 255 255 / 58%) !important;
+}
+
+#current-balance-donut-chart {
+    filter: drop-shadow(0px 10px 4px rgba(2, 96, 191, 0.151));
+}
+
+#current-balance-donut-chart .ct-series-a .ct-slice-donut,
+#total-transaction-line-chart .ct-series-a.ct-series .ct-line,
+#total-transaction-line-chart .ct-series-a .ct-point-circle {
+    stroke: #0c479d !important;
+}
+
+.pink.accent-2 {
+    background-color: #278eee !important;
+}
+
+.purple.accent-4 {
+    background-color: #0c479d !important;
+}
+
+#user-statistics-bar-chart .ct-series-a .ct-bar,
+#user-statistics-bar-chart .ct-series-a .ct-slice-pie {
+    stroke: #278eee !important;
+    fill: #278eee !important ;
+}
+
+#user-statistics-bar-chart .ct-series-b .ct-bar,
+#user-statistics-bar-chart .ct-series-b .ct-slice-pie {
+    stroke: #0c479d !important;
+    fill: #0c479d !important ;
+}
+
+.btn,
+.btn-floating,
+.btn-large,
+.btn-small,
+.btn-flat ,
+span.badge.new{
+    background-color: #278eee !important;
+    background: linear-gradient(45deg, #0c479d, #0064c3) !important;
+}
+
+ul.pager li,
+ul.pager li a {
+    background: #0c479d !important;
+}
+
+ul.pager li.disabled,
+ul.pager li.active {
+    background: #ddd !important;
+    color: #333 !important;
+}
+
+[type="checkbox"]:checked + span:not(.lever):before {
+    border-right: 2px solid #0c479d;
+    border-bottom: 2px solid #0c479d !important;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #0c479d !important;
+    box-shadow: 0 1px 0 0 #0c479d !important;
+}
+
+.input-field .prefix.active {
+    color: #0c479d !important;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="password"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="email"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="url"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="time"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="date"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="datetime"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly])
+    + label,
+input[type="tel"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="number"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="search"]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #0c479d !important;
+}
+
+.total-transaction-tooltip,
+.current-balance-tooltip,
+.user-statistics-tooltip,
+.conversion-ratio-tooltip {
+    background: #0c479d !important;
+}
+
+.total-transaction-tooltip:before,
+.current-balance-tooltip:before,
+.user-statistics-tooltip:before,
+.conversion-ratio-tooltip:before {
+    border-top-color: #0c479d !important;
+}
+
+.select-wrapper.valid > input.select-dropdown,
+input:not([type]).valid,
+input:not([type]):focus.valid,
+input[type="text"]:not(.browser-default).valid,
+input[type="text"]:not(.browser-default):focus.valid,
+input[type="password"]:not(.browser-default).valid,
+input[type="password"]:not(.browser-default):focus.valid,
+input[type="email"]:not(.browser-default).valid,
+input[type="email"]:not(.browser-default):focus.valid,
+input[type="url"]:not(.browser-default).valid,
+input[type="url"]:not(.browser-default):focus.valid,
+input[type="time"]:not(.browser-default).valid,
+input[type="time"]:not(.browser-default):focus.valid,
+input[type="date"]:not(.browser-default).valid,
+input[type="date"]:not(.browser-default):focus.valid,
+input[type="datetime"]:not(.browser-default).valid,
+input[type="datetime"]:not(.browser-default):focus.valid,
+input[type="datetime-local"]:not(.browser-default).valid,
+input[type="datetime-local"]:not(.browser-default):focus.valid,
+input[type="tel"]:not(.browser-default).valid,
+input[type="tel"]:not(.browser-default):focus.valid,
+input[type="number"]:not(.browser-default).valid,
+input[type="number"]:not(.browser-default):focus.valid,
+input[type="search"]:not(.browser-default).valid,
+input[type="search"]:not(.browser-default):focus.valid,
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea:focus.valid {
+    border-bottom: 1px solid #0c479d !important;
+    box-shadow: 0 1px 0 0 #0c479d !important;
+}
+
+.dropdown-content li > a, .dropdown-content li > span{
+  color: #0c479d !important;
+}
+
+.select-wrapper input.select-dropdown:focus{
+  border-bottom: 1px solid #0c479d !important;
+}
+
+.add-btn .btn a{
+    color: #fff !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.custom-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+div#LogoutModal{
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 38%;
+}
+
+div#LogoutModal .modal-dialog {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100% !important;
+}
+
+.hide-section{
+    display: none;
+}
